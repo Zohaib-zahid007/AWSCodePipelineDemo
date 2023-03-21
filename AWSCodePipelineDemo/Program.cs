@@ -22,5 +22,4 @@ app.UseAuthorization();
 
 app.MapControllers();
 app.MapGet("/", () => "Hello World v2!");
-
 app.Run();
